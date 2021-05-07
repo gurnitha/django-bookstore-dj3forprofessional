@@ -40,6 +40,7 @@ INSTALLED_APPS = [
 
     # First party app
     'app.main.apps.MainConfig',
+    'app.accounts.apps.AccountsConfig',
 ]
 
 MIDDLEWARE = [
