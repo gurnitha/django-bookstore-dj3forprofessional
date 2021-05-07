@@ -35,3 +35,5 @@
 6. Created Custom User Admin
 
 7. Created superuser
+
+8. Created and installed a new app 'pages' and removed 'main' app
