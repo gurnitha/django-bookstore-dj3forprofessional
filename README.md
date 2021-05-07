@@ -33,3 +33,5 @@
 5. Created Custom User Forms
 
 6. Created Custom User Admin
+
+7. Created superuser
