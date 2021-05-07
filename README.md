@@ -26,4 +26,6 @@
 	├── db.sqlite3
 	└── manage.py
 
-3. Custom user - Created and installed CustomUser to project	
+3. Custom user - Created and installed CustomUser to project
+
+4. Created and connected to mysql db and run migrations
