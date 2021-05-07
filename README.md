@@ -31,3 +31,5 @@
 4. Created and connected to mysql db and run migrations
 
 5. Created Custom User Forms
+
+6. Created Custom User Admin
