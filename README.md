@@ -37,3 +37,5 @@
 7. Created superuser
 
 8. Created and installed a new app 'pages' and removed 'main' app
+
+9. URLs and Views
