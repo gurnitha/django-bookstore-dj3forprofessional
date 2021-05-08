@@ -62,4 +62,7 @@ ch 5
 
 	Excerpt From: William S. Vincent. “Django for Professionals.” iBooks. 
 
+Chapter 6: Static Assets
+
+6.1. STATIC_URL, STATICFILES_DIRS, AND STATIC_ROOT 
 

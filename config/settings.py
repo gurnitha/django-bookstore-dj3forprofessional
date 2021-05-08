@@ -133,7 +133,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
-STATIC_URL = '/static/'
+# STATIC_URL = '/static/'
 
 # new
 
@@ -144,3 +144,15 @@ AUTH_USER_MODEL = 'accounts.CustomUser'
 # after logging in & logging out
 LOGIN_REDIRECT_URL = 'home'
 LOGOUT_REDIRECT_URL = 'home'
+
+# LOCAL DEV: STATIC_URL AND STATICFILES_DIRS ARE FOR LOCAL DEVELOPMENT
+# static_url set to reference static files
+STATIC_URL = '/static/'
+# staticfiles_dirs defines the location of 
+# static files in local development
+STATICFILES_DIRS = (str(BASE_DIR.joinpath('static')),)
+
+# PRODUCTION
+# static_root is the location of static files for production
+STATIC_ROOT = (str(BASE_DIR.joinpath('staticfiles')))
+
