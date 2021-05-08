@@ -50,4 +50,16 @@ ch 5
 
 13. Redirects to Home page after logging out
 
+14. Sign Up
+
+	“Implementing a sign up page for user registration is completely up to us. We’ll go through the standard steps for any new page:
+
+	1. create an app-level accounts/urls.py file
+	2. update the project-level config/urls.py to point to the accounts app
+	3. add a view called SignupPageView
+	4. create a signup.html template
+	5. update home.html to display the sign up page”
+
+	Excerpt From: William S. Vincent. “Django for Professionals.” iBooks. 
+
 
