@@ -39,3 +39,7 @@
 8. Created and installed a new app 'pages' and removed 'main' app
 
 9. URLs and Views
+
+ch 5
+
+10. Auth URLs and Views
