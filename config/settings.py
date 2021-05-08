@@ -156,3 +156,9 @@ STATICFILES_DIRS = (str(BASE_DIR.joinpath('static')),)
 # static_root is the location of static files for production
 STATIC_ROOT = (str(BASE_DIR.joinpath('staticfiles')))
 
+# staticfiles_finders tells django how to look for static file dirs
+# It is implicitly set by django. So this to explicitly define
+STATICFILES_FINDERS = [
+    "django.contrib.staticfiles.finders.FileSystemFinder",
+    "django.contrib.staticfiles.finders.AppDirectoriesFinder",
+]
