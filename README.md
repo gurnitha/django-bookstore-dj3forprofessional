@@ -45,3 +45,7 @@ ch 5
 10. Auth URLs and Views
 
 11. Login
+
+12. Redirects to Home page after logging in
+
+

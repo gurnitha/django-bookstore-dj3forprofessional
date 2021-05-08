@@ -136,4 +136,9 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 # new
+
+# Registering CustomUser
 AUTH_USER_MODEL = 'accounts.CustomUser'
+
+# Redirect to home page after logging in
+LOGIN_REDIRECT_URL = 'home'
