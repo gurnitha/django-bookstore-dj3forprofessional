@@ -48,4 +48,6 @@ ch 5
 
 12. Redirects to Home page after logging in
 
+13. Redirects to Home page after logging out
+
 

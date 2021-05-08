@@ -140,5 +140,7 @@ STATIC_URL = '/static/'
 # Registering CustomUser
 AUTH_USER_MODEL = 'accounts.CustomUser'
 
-# Redirect to home page after logging in
+# Redirect to home page 
+# after logging in & logging out
 LOGIN_REDIRECT_URL = 'home'
+LOGOUT_REDIRECT_URL = 'home'
