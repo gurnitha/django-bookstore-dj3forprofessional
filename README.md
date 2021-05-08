@@ -66,3 +66,9 @@ Chapter 6: Static Assets
 
 6.1. STATIC_URL, STATICFILES_DIRS, AND STATIC_ROOT 
 
+6.2. STATICFILES_FINDERS
+
+6.3. Static Directory - Added css, image, js
+
+ 
+

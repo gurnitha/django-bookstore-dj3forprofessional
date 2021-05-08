@@ -2,7 +2,7 @@
 
 <!-- base.html -->
 {% extends '_base.html' %}
-
+{% load static %}
 <!-- head title -->
 {% block title %}Home{% endblock title %}
 
@@ -10,7 +10,8 @@
 {% block content %}
 
   <h1>Homepage</h1>
-
+  <img class="bookcover" src="{% static 'images/dfp.png' %}">
+  <br>
   <!-- Authenticated user logged in -->
   {% if user.is_authenticated %}
   	Hi, {{ user.email }}
